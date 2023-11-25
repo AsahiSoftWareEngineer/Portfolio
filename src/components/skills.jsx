@@ -22,7 +22,8 @@ export class SkillsComponent extends React.Component {
         <section className={`${styles.skills} ${this.state.is_mount? styles.mount: styles.unmount}`}>
         <h3>My Skills</h3>
         <ul className={styles.category}>
-          <li><dl>
+          <li>
+            <dl>
             <dt>Programming languages</dt>
             <dd>
               <ul>
@@ -30,7 +31,8 @@ export class SkillsComponent extends React.Component {
                 <li>JavaScript</li>
               </ul>
             </dd>
-          </dl></li>
+          </dl>
+          </li>
 
           <li><dl>
             <dt>Framework</dt>
